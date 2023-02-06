@@ -15,7 +15,7 @@ public class nPositivo {
 		System.out.println("Digite um Número Inteiro Positivo");
 		num = sc.nextInt();
 		
-		while (i<=num){
+		for (i=1; i<=num; i++){
 			if(i %2 != 0){
 				
 				System.out.println(i +"");
