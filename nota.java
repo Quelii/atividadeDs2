@@ -36,7 +36,7 @@ public class nota {
 		mediaturma = media + mediaturma;
 	}
 		
-		System.out.printf("%f",mediaturma /3);
+		System.out.printf("%f É a média da Turma",mediaturma /3);
 		
 		
 	}
