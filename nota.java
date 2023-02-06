@@ -18,19 +18,19 @@ public class nota {
 			
 		System.out.printf("Aluno %d: \n",i);
 		
-		System.out.println("Digite a Primeira nota: ");
+		System.out.printf("Digite a Primeira nota: ");
 		n1 = sc.nextFloat();
 		
-		System.out.println("Digite a Segunda Nota: ");
+		System.out.printf("Digite a Segunda Nota: ");
 		n2 = sc.nextFloat();
 		
 		media = (n1 + n2) / 2;
 		System.out.printf("A média é %f\n",media);
 		
 		if(media > 6) {
-			System.out.println("Aprovado");
+			System.out.println("Aprovado \n");
 		}else {
-			System.out.println("Reprovado");
+			System.out.println("Reprovado \n");
 		}
 		
 		mediaturma = media + mediaturma;
